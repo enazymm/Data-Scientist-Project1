@@ -4,7 +4,12 @@
 This project aims to analyze Covid-19 data to provide some insight about the spread and answer some questions.
 
 ### Installation
-The project depend on having the python version 2.7 or higher and JupyterLab. The project also ueses Matplotlib.
+The project depend on having the python version 2.7 or higher and JupyterLab. This project uses the Pandas library to manipulate the data.
+To install use the code bellow.
+
+>pip install pandas
+
+The project also ueses Matplotlib, which allow the creation of visuals.
 To install matplotlip run the following code.
 
 >python -m pip install -U matplotlib
@@ -22,7 +27,7 @@ The project is a part of the Data Scientist Nanodegree provided by Udacity. The 
 - **covid_19_data.csv** is the data used in the project, the data contain 33211 records and 7 attributes.
 
 ### Result
-The result of the findigs can be found [Here](https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset?select=covid_19_data.csv)
+The result of the findigs can be found [Here](https://medium.com/@mm.al3nazy/covid-19-spread-result-around-the-world-130c725401df)
 
 ### Acknowledgements
 Credit goes to Kaggle for providing the data necessary to complete this project, for more information about the terms of use [Here](https://www.kaggle.com/terms)
